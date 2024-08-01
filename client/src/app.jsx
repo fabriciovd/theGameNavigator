@@ -5,7 +5,7 @@ import "./app.css";
 
 import Navbar from "./components/header/Navbar";
 import Footer from "./components/footer/Footer";
-import LandingPage from "./components/LandingPage";
+import Home from "./components/home/Home";
 
 import { BrowserRouter, Route, Link, Navigate, Routes } from "react-router-dom";
 
@@ -14,7 +14,7 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
     </>

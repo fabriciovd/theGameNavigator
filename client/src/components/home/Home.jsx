@@ -61,7 +61,7 @@ export default function LandingPage(props) {
                       don't look even slightly believable
                     </p>
                     <div class="shop_bt">
-                      <a href="#">Shop Now</a>
+                      <a href="#">Details</a>
                     </div>
                   </div>
                   <div class="col-md-6">
