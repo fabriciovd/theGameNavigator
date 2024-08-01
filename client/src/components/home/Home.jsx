@@ -1,8 +1,6 @@
 export default function LandingPage(props) {
   return (
     <>
-      <div className="banner_section layout_padding">
-        <div className="container">
           <div id="my_slider" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -89,8 +87,6 @@ export default function LandingPage(props) {
               <i className="fa fa-angle-right"></i>
             </a>
           </div>
-        </div>
-      </div>
     </>
   );
 }

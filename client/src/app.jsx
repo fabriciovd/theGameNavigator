@@ -5,12 +5,15 @@ import Navbar from "./components/header/Navbar";
 import Register from "./components/register/Register";
 import Home from "./components/home/Home";
 import Login from "./components/login/Login";
+import Banner from "./components/Banner";
 
 
 function App() {
   return (
     <>
       <Navbar />
+      <div className="banner_section layout_padding">
+      <div className="container">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -18,6 +21,8 @@ function App() {
               <Route path="/home" element={<Home />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
+      </div>
+      </div>
       <Footer />
     </>
   );
