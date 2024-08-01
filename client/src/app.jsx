@@ -1,22 +1,26 @@
-import { useState } from "preact/hooks";
-import preactLogo from "./assets/preact.svg";
-import viteLogo from "/vite.svg";
-import "./app.css";
+import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/header/Navbar";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/header/Navbar";
+import Register from "./components/register/Register";
 import Home from "./components/home/Home";
+import Login from "./components/login/Login";
 
-import { BrowserRouter, Route, Link, Navigate, Routes } from "react-router-dom";
 
-export default function App() {
+function App() {
   return (
     <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/home" element={<Home />} />
+        <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
       <Footer />
     </>
   );
 }
+
+export default App;

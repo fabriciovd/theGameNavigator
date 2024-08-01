@@ -1,20 +1,20 @@
 export default function Footer(props) {
   return (
     <>
-      <div class="section_footer ">
-        <div class="container">
-          <div class="footer_section_2">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <h2 class="account_text">About Us</h2>
-                <p class="ipsum_text_2">
+      <div className="section_footer ">
+        <div className="container">
+          <div className="footer_section_2">
+            <div className="row">
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                <h2 className="account_text">About Us</h2>
+                <p className="ipsum_text_2">
                   dolor sit amet, consectetur magna aliqua. Ut enim ad minim
                   veniam, quisdotempor incididunt r
                 </p>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <h2 class="account_text">Useful Link</h2>
-                <div class="useful_link">
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                <h2 className="account_text">Useful Link</h2>
+                <div className="useful_link">
                   <ul>
                     <li>
                       <a href="#">Video games</a>
@@ -28,20 +28,20 @@ export default function Footer(props) {
                   </ul>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <h2 class="account_text">Contact Us</h2>
-                <p class="ipsum_text_2">
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                <h2 className="account_text">Contact Us</h2>
+                <p className="ipsum_text_2">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores nostrum adipisci laborum minima neque saepe incidunt facilis iste nobis nam dolorem, itaque aliquam nemo ipsa, optio, possimus deserunt natus.{" "}
                 </p>
               </div>
-              {/* <div class="col-sm-6 col-md-6 col-lg-3">
-              <h2 class="account_text">Newsletter</h2>
-              <input type="" class="email_text" placeholder="Enter Your Email" name="Enter Your Email"/>
-              <button class="subscribr_bt">SUBSCRIBE</button>
+              {/* <div className="col-sm-6 col-md-6 col-lg-3">
+              <h2 className="account_text">Newsletter</h2>
+              <input type="" className="email_text" placeholder="Enter Your Email" name="Enter Your Email"/>
+              <button className="subscribr_bt">SUBSCRIBE</button>
             </div> */}
             </div>
           </div>
-          <div class="social_icon">
+          <div className="social_icon">
             <ul>
               <li>
                 <a href="#">
@@ -67,9 +67,9 @@ export default function Footer(props) {
           </div>
         </div>
       </div>
-      <div class="copyright_section">
-        <div class="container">
-          <p class="copyright_text">
+      <div className="copyright_section">
+        <div className="container">
+          <p className="copyright_text">
             Copyright 2020 All Right Reserved By{" "}
             <a href="https://html.design/" /> Free html Templates
           </p>

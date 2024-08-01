@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Navbar(props) {
     return ( 
         <>
@@ -10,7 +12,7 @@ export default function Navbar(props) {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">HOME</a>
+                  <NavLink className="nav-link" to="/">HOME</NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="about.html">ABOUT</a>
@@ -31,7 +33,7 @@ export default function Navbar(props) {
                   <a className="nav-link" href="#"><img src="images/search-icon.png"/></a>
                 </li>
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">SIGN IN</a>
+                  <NavLink className="nav-link" to="/login">LOGIN</NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">REGISTER</a>

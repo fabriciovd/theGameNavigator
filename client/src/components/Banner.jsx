@@ -1,5 +1,3 @@
-import { Outlet } from "react-router-dom";
-
 export default function Banner(props){
     return(
            <>
@@ -16,7 +14,7 @@ export default function Banner(props){
                 <div className="shop_bt"><a href="#">Shop Now</a></div>
               </div>
               <div className="col-md-6">
-                <div className="image_1"><img src="images/img-1.png"/></div>
+                <div className="image_1"><img src="/images/img-1.png"/></div>
             </div>
           </div>
           </div>
@@ -29,7 +27,7 @@ export default function Banner(props){
                 <div className="shop_bt"><a href="#">Shop Now</a></div>
               </div>
               <div className="col-md-6">
-                <div className="image_1"><img src="images/img-1.png"/></div>
+                <div className="image_1"><img src="/images/img-1.png"/></div>
             </div>
           </div>
           </div>
@@ -42,7 +40,7 @@ export default function Banner(props){
                 <div className="shop_bt"><a href="#">Shop Now</a></div>
               </div>
               <div className="col-md-6">
-                <div className="image_1"><img src="images/img-1.png"/></div>
+                <div className="image_1"><img src="/images/img-1.png"/></div>
             </div>
           </div>
           </div>
